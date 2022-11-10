@@ -2,21 +2,35 @@ export interface NavProps {
   title: string;
 }
 export interface ImageProps {
+  className: any;
+  style: any;
   width: string | number;
   height: string | number;
   fluid: boolean;
   src: string;
   alt: string;
 }
-export interface mlProps {
-  ml: string | any;
+export interface SpacerProps {
+  width: string;
+  height: string;
 }
-export interface mrProps {
-  mr: string | any;
+export interface MarginSpacerProps {
+  ml: string;
+  mr: string;
+  mt: string;
+  mb: string;
 }
-export interface mtProps {
-  mt: string | any;
+export interface FlexDisplayProps {
+  direction: string;
+  wrap: string;
 }
-export interface mbProps {
-  mb: string | any;
+export interface NavLIProps {
+  ml: string;
+}
+export interface H1Props {
+  color: string;
+  weight: string | number;
+}
+export interface BannerButtonProps {
+  bg: string;
 }

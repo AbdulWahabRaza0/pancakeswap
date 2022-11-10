@@ -1,13 +1,13 @@
 import styled from "styled-components";
-import { mlProps, mrProps, mtProps, mbProps } from "./PropsInterface";
-export const Spacer = styled.div`
-  width: ${(props: any) => props.width || "0px"};
-  height: ${(props: any) => props.height || "0px"};
+import { MarginSpacerProps, SpacerProps } from "./PropsInterface";
+export const Spacer = styled.div<SpacerProps>`
+  width: ${(props) => props.width || "0px"};
+  height: ${(props) => props.height || "0px"};
 `;
 
-export const MarginSpacer = styled.div`
-  margin-left: ${(props: any) => props.ml || "0px"};
-  margin-right: ${(props: any) => props.mr || "0px"};
-  margin-top: ${(props: any) => props.mt || "0px"};
-  margin-bottom: ${(props: any) => props.mb || "0px"};
+export const MarginSpacer = styled.div<MarginSpacerProps>`
+  margin-left: ${(props) => props.ml || "0px"};
+  margin-right: ${(props) => props.mr || "0px"};
+  margin-top: ${(props) => props.mt || "0px"};
+  margin-bottom: ${(props) => props.mb || "0px"};
 `;
