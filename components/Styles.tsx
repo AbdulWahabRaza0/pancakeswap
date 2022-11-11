@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { NavLIProps } from "./PropsInterface";
+// let doBelow = "0px";
 export const Wrapper = styled.div``;
 export const WrapperSpan = styled.span``;
 export const NavStyle = styled.div`
@@ -62,6 +63,8 @@ export const NavLi = styled.li<NavLIProps>`
   &:hover #hover_show {
     display: block;
   }
+  @media only screen and (max-width: 820px) {
+  }
 `;
 export const NavRight = styled.div`
   float: right;
@@ -72,13 +75,51 @@ export const NavRight = styled.div`
 export const HomeStyle = styled.div`
   background-color: #e9faff;
   width: 100%;
-  height: 100vh;
+  height: auto;
+  #section2_main_wrapper {
+    margin-left: 8vh;
+  }
+  .section2_left {
+    margin-top: 15%;
+  }
+  .section2_right {
+    margin-top: 13%;
+  }
+  #section3 {
+    margin-top: 10%;
+  }
+  #section3_body {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .section3_box {
+    background-color: white;
+    border-radius: 15px;
+  }
   @media only screen and (max-width: 820px) {
-    .res_carousel_home_image {
+    .section1_res_carousel_home_image {
       height: 30vh;
     }
-    .home_res_carousel {
+    #section1_main_wrapper {
       padding-top: 15px;
+    }
+    #section2_main_wrapper {
+      margin-left: 7vh;
+      margin-right: 5vh;
+    }
+    .section2_right {
+      margin-left: 25%;
+      margin-top: -5%;
+    }
+    .section2_left {
+      width: 100%;
+      margin-top: -5%;
+    }
+    .section2_make_res_order_col1 {
+      order: 1;
+    }
+    .section2_res_btn {
+      width: 100% !important;
     }
   }
 `;

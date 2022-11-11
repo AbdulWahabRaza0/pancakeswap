@@ -29,7 +29,18 @@ export interface NavLIProps {
 }
 export interface H1Props {
   color: string;
-  weight: string | number;
+  weight: string;
+  size: string;
+}
+export interface H2Props {
+  color: string;
+  weight: string;
+  size: string;
+}
+export interface PProps {
+  weight: string;
+  color: string;
+  family: string;
 }
 export interface BannerButtonProps {
   bg: string;

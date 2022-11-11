@@ -58,6 +58,7 @@ const Navbar = (props: NavProps) => {
               id="hover_show"
               style={{
                 position: "absolute",
+                zIndex: 100,
                 backgroundColor: "#fff",
                 color: "white",
                 marginTop: "20px",
@@ -69,11 +70,19 @@ const Navbar = (props: NavProps) => {
                   <WrapperSpan
                     style={{ marginLeft: "20px", marginTop: "20px" }}
                   >
-                    <P>Swap</P>
-                    <P>Limit</P>
-                    <P>Liquidity</P>
+                    <P family="" weight="bolder" color="gray">
+                      Swap
+                    </P>
+                    <P family="" weight="bolder" color="gray">
+                      Limit
+                    </P>
+                    <P family="" weight="bolder" color="gray">
+                      Liquidity
+                    </P>
                     <FlexDisplay direction="row" wrap="nowrap">
-                      <P>Perpetual</P>
+                      <P family="" weight="bolder" color="gray">
+                        Perpetual
+                      </P>
                       <LogoutIcon
                         style={{
                           marginLeft: "auto",
@@ -84,7 +93,9 @@ const Navbar = (props: NavProps) => {
                       />
                     </FlexDisplay>
                     <FlexDisplay direction="row" wrap="nowrap">
-                      <P>Bridge</P>
+                      <P family="" weight="bolder" color="gray">
+                        Bridge
+                      </P>
                       <LogoutIcon
                         style={{
                           marginLeft: "auto",
@@ -110,6 +121,7 @@ const Navbar = (props: NavProps) => {
               style={{
                 position: "absolute",
                 backgroundColor: "#fff",
+                zIndex: 100,
                 color: "white",
                 marginTop: "20px",
                 marginLeft: "75px",
@@ -121,8 +133,12 @@ const Navbar = (props: NavProps) => {
                   <WrapperSpan
                     style={{ marginLeft: "20px", marginTop: "20px" }}
                   >
-                    <P>Farms</P>
-                    <P>Pools</P>
+                    <P family="" weight="bolder" color="gray">
+                      Farms
+                    </P>
+                    <P family="" weight="bolder" color="gray">
+                      Pools
+                    </P>
                   </WrapperSpan>
                 </FlexDisplay>
               </Spacer>
@@ -138,6 +154,7 @@ const Navbar = (props: NavProps) => {
               style={{
                 position: "absolute",
                 backgroundColor: "#fff",
+                zIndex: 100,
                 color: "white",
                 marginTop: "20px",
                 marginLeft: "140px",
@@ -149,10 +166,18 @@ const Navbar = (props: NavProps) => {
                   <WrapperSpan
                     style={{ marginLeft: "20px", marginTop: "20px" }}
                   >
-                    <P>Trading Prediction</P>
-                    <P>Prediction (BETA)</P>
-                    <P>Lottery</P>
-                    <P>Pottery (BETA)</P>
+                    <P family="" weight="bolder" color="gray">
+                      Trading Prediction
+                    </P>
+                    <P family="" weight="bolder" color="gray">
+                      Prediction (BETA)
+                    </P>
+                    <P family="" weight="bolder" color="gray">
+                      Lottery
+                    </P>
+                    <P family="" weight="bolder" color="gray">
+                      Pottery (BETA)
+                    </P>
                   </WrapperSpan>
                 </FlexDisplay>
               </Spacer>
@@ -168,6 +193,7 @@ const Navbar = (props: NavProps) => {
               style={{
                 position: "absolute",
                 backgroundColor: "#fff",
+                zIndex: 100,
                 color: "white",
                 marginTop: "20px",
                 marginLeft: "200px",
@@ -179,9 +205,15 @@ const Navbar = (props: NavProps) => {
                   <WrapperSpan
                     style={{ marginLeft: "20px", marginTop: "20px" }}
                   >
-                    <P>Overview</P>
-                    <P>Collections</P>
-                    <P>Activity</P>
+                    <P family="" weight="bolder" color="gray">
+                      Overview
+                    </P>
+                    <P family="" weight="bolder" color="gray">
+                      Collections
+                    </P>
+                    <P family="" weight="bolder" color="gray">
+                      Activity
+                    </P>
                   </WrapperSpan>
                 </FlexDisplay>
               </Spacer>
@@ -197,6 +229,7 @@ const Navbar = (props: NavProps) => {
               style={{
                 position: "absolute",
                 backgroundColor: "#fff",
+                zIndex: 100,
                 color: "white",
                 marginTop: "20px",
                 marginLeft: "260px",
@@ -208,9 +241,15 @@ const Navbar = (props: NavProps) => {
                   <WrapperSpan
                     style={{ marginLeft: "20px", marginTop: "20px" }}
                   >
-                    <P>Info</P>
-                    <P>Ifo</P>
-                    <P>Voting</P>
+                    <P family="" weight="bolder" color="gray">
+                      Info
+                    </P>
+                    <P family="" weight="bolder" color="gray">
+                      Ifo
+                    </P>
+                    <P family="" weight="bolder" color="gray">
+                      Voting
+                    </P>
                   </WrapperSpan>
                 </FlexDisplay>
               </Spacer>
@@ -282,6 +321,7 @@ const Navbar = (props: NavProps) => {
                   className="bnb_btn_res_margin_navbar"
                   style={{
                     position: "absolute",
+                    zIndex: 100,
                     backgroundColor: "#fff",
                     color: "white",
                     marginTop: "20px",
@@ -293,9 +333,15 @@ const Navbar = (props: NavProps) => {
                       <WrapperSpan
                         style={{ marginLeft: "20px", marginTop: "20px" }}
                       >
-                        <P>Overview</P>
-                        <P>Collections</P>
-                        <P>Activity</P>
+                        <P family="" weight="bolder" color="gray">
+                          Overview
+                        </P>
+                        <P family="" weight="bolder" color="gray">
+                          Collections
+                        </P>
+                        <P family="" weight="bolder" color="gray">
+                          Activity
+                        </P>
                       </WrapperSpan>
                     </FlexDisplay>
                   </Spacer>
